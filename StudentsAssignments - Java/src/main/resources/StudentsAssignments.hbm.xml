@@ -1,0 +1,45 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+-->
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "C:\Projects\dtd\hibernate-configuration\hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="edu.students.assignments.dataobjects.StudentsAssignments" table="StudentsAssignments">
+        <id name="recordIdentifier" column="recordIdentifier" />
+        <property name="entryTimeStamp" column="entryTimeStamp"/>
+        <property name="studentID" column="studentID" />
+        <property name="lastName" column="LastName"/>
+        <property name="_11A" column="11A"/>
+        <property name="_12A" column="12A"/>
+        <property name="_25A" column="25A"/>
+        <property name="_31A" column="31A"/>
+        <property name="_35A" column="35A"/>
+        <property name="_36A" column="36A"/>
+        <property name="_42B" column="42B"/>
+        <property name="_66H" column="66H"/>
+        <property name="_70B" column="70B"/>
+        <property name="_74A" column="74A"/>
+        <property name="_88A" column="88A"/>
+        <property name="_91A" column="91A"/>
+        <property name="_92A" column="92A"/>
+        <property name="oml" column="OML"/>
+        <property name="uniqueID" column="UniqueID"/>
+        <property name="usarInputOML" column="UsarInputOML"/>
+        <property name="_1" column="1"/>
+        <property name="_2" column="2"/>
+        <property name="_3" column="3"/>
+        <property name="_4" column="4"/>
+        <property name="_5" column="5"/>
+        <property name="_6" column="6"/>
+        <property name="_7" column="7"/>
+        <property name="_8" column="8"/>
+        <property name="_9" column="9"/>
+        <property name="_10" column="10"/>
+        <property name="_11" column="11"/>
+        <property name="_12" column="12"/>
+        <property name="jobAssigned" column="JobAssigned"/>
+        <property name="studentsPickNum" column="StudentsPickNum"/>
+        <property name="dup" column="dup"/>
+        <property name="rankingError" column="RankingError"/>
+    </class>
+</hibernate-mapping>

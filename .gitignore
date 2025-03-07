@@ -1,0 +1,41 @@
+# misc ignore
+zips/
+data/
+*.pbix
+
+
+# java ignore
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.project
+*.classpath
+*.settings/
+target/
+out/
+bin/
+
+# python ignore
+*__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+ENV.bak/
+venv.bak/
+.idea/
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+dist/
+build/
+site/
